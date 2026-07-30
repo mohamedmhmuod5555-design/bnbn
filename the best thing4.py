@@ -20,9 +20,6 @@ if "feed " not in st.session_state:
   st.session_state.feed = 0
 if "correct" not in st.session_state:
   st.session_state.correct=0
-num1=st.session_state.num1
-num2=st.session_state.num2
-sign=st.session_state.sign
 if sign=='+':
  sc=num1+num2
 if sign=='-':
